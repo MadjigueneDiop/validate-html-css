@@ -1,0 +1,163 @@
+.a-propos p{
+    color:orangered;
+    display: flex;
+
+}
+/* body{
+    background-image: url(mada.jpg);
+
+} */
+.a-propos{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.apropos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.img{
+    width: 340px;
+    height: 340px;
+    margin-top: 80px;
+    margin-right:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+/* .a-propos h2{
+    color:orangered;
+    display: flex;
+} */
+.a-propos h2{
+    background-color: orangered;
+    width: 150px;
+    color:black;
+    display: flex;
+}
+.a-propos .h2{
+    background-color: orangered;
+    width: 130px;
+    color:black;
+    display: flex;
+}
+.a-propos .H2{
+    background-color: orangered;
+    width: 150px;
+    color:black;
+    display: flex;
+}
+
+
+@media screen and (max-width:600px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .a-propos h2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos .h2{
+        position: relative;
+        right:47px;
+    }
+    .a-propos .H2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos p{
+        position: relative;
+        right:47px;
+       
+    }
+    .apropos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        margin-left: 50px;
+    } 
+    
+}
+@media screen and (max-width:758px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .a-propos h2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos .h2{
+        position: relative;
+        right:47px;
+    }
+    .a-propos .H2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos p{
+        position: relative;
+        right:47px;
+       
+    }
+    .apropos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        margin-left: 50px;
+    } 
+
+
+}
+@media screen and (max-width:900px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .a-propos h2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos .h2{
+        position: relative;
+        right:47px;
+    }
+    .a-propos .H2{
+        position: relative;
+        right:47px;
+    }
+
+    .a-propos p{
+        position: relative;
+        right:47px;
+       
+    }
+    .apropos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        margin-left: 50px;
+    } 
+
+}

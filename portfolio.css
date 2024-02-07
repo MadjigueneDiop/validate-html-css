@@ -1,0 +1,120 @@
+.portfolio{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.portfolio h2{
+    background-color: orangered;
+    width: 300px;
+    color:black;
+    display: flex;
+}
+.portfolio .h2{
+    background-color: orangered;
+    width: 140px;
+    color:black;
+    display: flex;
+}
+
+.portfolio p{
+    color: orangered;
+}
+.portfolio a{
+    color: orangered;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: orangered;
+    color: black;
+}
+
+/* ----------------------@media ------------------------------------ */
+@media screen and (max-width:600px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+        right:12px;
+
+    }
+    .portfolio h2{
+        position: relative;
+        right:47px;
+    }
+
+    .portfolio .h2{
+        position: relative;
+        right:47px;
+    }
+    .portfolio p{
+        position: relative;
+        right:47px;
+       
+    }
+    .portfolio a{
+        position: relative;
+        right:47px;
+       
+    }
+
+    
+}
+@media screen and (max-width:758px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        right:12px;
+        font-size: 15px;
+    }
+    .portfolio h2{
+        position: relative;
+        right:47px;
+    }
+
+    .portfolio .h2{
+        position: relative;
+        right:47px;
+    }
+    .portfolio p{
+        position: relative;
+        right:47px;
+       
+    }
+    .portfolio a{
+        position: relative;
+        right:47px;
+       
+    }
+
+
+}@media screen and (max-width:900px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        right:12px;
+        font-size: 15px;
+    }
+    .portfolio h2{
+        position: relative;
+        right:47px;
+    }
+
+    .portfolio .h2{
+        position: relative;
+        right:47px;
+    }
+    .portfolio p{
+        position: relative;
+        right:47px;
+       
+    }
+    .portfolio a{
+        position: relative;
+        right:47px;
+       
+    }
+
+
+}

@@ -1,0 +1,112 @@
+body{
+    background-color:black;
+}
+
+/* ------------- début nav------------------- */
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+}
+nav li{
+    list-style: none;
+   
+}
+nav a{
+    text-decoration: none;
+    color:orangered;
+}
+/* ------------------fin  nav------------------------ */
+
+/* ---------------------début accueil---------------- */
+.accueil h2{
+    background-color: orangered;
+    width: 330px;
+    color:black;
+    display: flex;
+}
+.accueil .h2{
+    background-color: orangered;
+    width: 200px;
+    color:black;
+    display: flex;
+}
+
+.accueil p{
+    color:orangered;
+    display: flex;
+}
+.accueil{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+/* ------------------------fin accueil------------------------ */
+
+/* ----------------------@media ------------------------------------ */
+@media screen and (max-width:600px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        right:12px;
+        font-size: 15px;
+    }
+    .accueil h2{
+        position: relative;
+        right:47px;
+    }
+
+    .accueil .h2{
+        position: relative;
+        right:47px;
+    }
+    .accueil p{
+        position: relative;
+        right:47px;
+       
+    }
+    
+}
+@media screen and (max-width:758px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .accueil h2{
+        position: relative;
+        right:47px;
+    }
+
+    .accueil .h2{
+        position: relative;
+        right:47px;
+    }
+    .accueil p{
+        position: relative;
+        right:47px;
+       
+    }
+
+}@media screen and (max-width:900px) {
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+    .accueil h2{
+        position: relative;
+        right:47px;
+    }
+
+    .accueil .h2{
+        position: relative;
+        right:47px;
+    }
+    .accueil p{
+        position: relative;
+        right:47px;
+       
+    }
+
+}
